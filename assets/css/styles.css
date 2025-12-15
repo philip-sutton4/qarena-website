@@ -111,6 +111,9 @@ h2{margin:0 0 12px;font-size:20px;color:#fff}
 .service-card h3{margin:0;font-size:16px;color:#fff}
 .service-card p{margin:0;color:var(--muted);font-size:14px}
 
+/* What we do section */    
+.we-test-on img{max-height:80px;max-width:250px;object-fit:contain;padding: 10px;}
+
 /* Team */
 .team-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:16px}
 .team-member{display:flex;gap:12px;align-items:flex-start;padding:12px}
@@ -166,4 +169,22 @@ h2{margin:0 0 12px;font-size:20px;color:#fff}
   .services-grid{grid-template-columns:1fr}
   .project-logos{flex-direction:column;align-items:stretch}
   .project-logo{height:auto;padding:14px}
+
+
+}
+
+/* Social media icons */
+  .fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 2px;
+  border-radius: 30%;
+}
+
+.fa:hover {opacity: 0.7;}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
